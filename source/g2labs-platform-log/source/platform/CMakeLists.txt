@@ -23,5 +23,5 @@
 if((DEFINED G2LABS_PLATFORM_TARGET) AND(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${G2LABS_PLATFORM_TARGET}))
     add_subdirectory(${G2LABS_PLATFORM_TARGET})
 else()
-    add_subdirectory(default)
+    add_subdirectory(dummy)
 endif()
